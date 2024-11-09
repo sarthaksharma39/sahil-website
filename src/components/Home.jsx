@@ -12,7 +12,7 @@ export default function Home() {
             <Image src="/sahil_image.jpg" className="rounded-2xl" alt="Student Image" width={350} height={450} />
           </div>
           <div className="ml-8">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Sahil Sharma</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Hi, I&apos;m Sahil Sharma</h1>
             <p className="text-lg md:text-2xl mb-8">A Curious Pharmaceutical Student</p>
             <Link href="#about" className="px-6 py-3 bg-white text-green-600 rounded-full font-semibold hover:bg-gray-200 transition">
               Get to Know Me
@@ -25,7 +25,7 @@ export default function Home() {
       <section id="about" className="py-20 px-8 md:px-20 min-h-screen flex flex-col items-center justify-center bg-gray-100 dark:bg-gray-800">
         <h2 className="text-[80px] font-bold text-center mb-6">About Me</h2>
         <p className="text-center max-w-2xl mx-auto text-xl">
-          I’m currently studying pharmaceutical sciences and have a keen interest in understanding the world of medicine and healthcare. My journey is all about learning and exploring different facets of pharmacology, and I am excited about the impact of modern science on improving lives. I’m always eager to connect with others in the field and exchange knowledge!
+          I&apos;m currently studying pharmaceutical sciences and have a keen interest in understanding the world of medicine and healthcare. My journey is all about learning and exploring different facets of pharmacology, and I am excited about the impact of modern science on improving lives. I&apos;m always eager to connect with others in the field and exchange knowledge!
         </p>
       </section>
 
@@ -63,7 +63,7 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="py-20 px-8 md:px-20 bg-gray-100 dark:bg-gray-800">
         <h2 className="text-3xl font-bold text-center mb-6">Connect with Me</h2>
-        <p className="text-center mb-6">I’m open to discussions on pharmaceuticals, healthcare, or just a friendly conversation. Feel free to reach out!</p>
+        <p className="text-center mb-6">I&apos;m open to discussions on pharmaceuticals, healthcare, or just a friendly conversation. Feel free to reach out!</p>
         <div className="flex flex-row justify-center items-center space-x-4">
           <Link href="mailto:sahilsharma98552@gmail.com" className="px-6 py-3 bg-teal-600 text-white rounded-full font-semibold hover:bg-teal-700 transition">
             Email
